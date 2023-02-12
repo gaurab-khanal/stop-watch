@@ -43,7 +43,7 @@ footer{
     color: white;
     position: absolute;
     bottom: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-weight: 600;
     font-family: sans-serif;
 
@@ -51,4 +51,24 @@ footer{
 
 i{
     color: red;
+}
+
+@media (max-width:700px) {
+    body{
+        background-color: red;
+    }
+    .container{
+        height: 100vh;
+    }
+    .clock{
+        font-size: 3rem;
+    }
+    button{
+        padding: 10px;
+        width: 100px;
+        font-size: 1rem;
+    }
+    footer{
+        margin-bottom: 20px;
+    }
 }
