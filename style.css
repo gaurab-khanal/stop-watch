@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    background-color: rgb(30,30,30);   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.clock{
+   color: #fff;
+   font-size: 4rem;
+}
+
+button{
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font: 100 1.5rem sans-serif;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.btn{
+    display: flex;
+    gap: 30px;
+}
+
+button:hover{
+    background-color: rgb(50,50,50);
+    color: white;
+}
+
+footer{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: sans-serif;
+
+}
+
+i{
+    color: red;
+}
